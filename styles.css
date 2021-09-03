@@ -1,4 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+
+:root{
+    --primary-color: lightblue;
+}
 body{
     font-family: 'Merriweather';
+}
+.container{
+    padding-left:1rem;
+    padding-right:1rem;
+}
+
+.container-centre{
+    max-width:600px;
+    margin:auto;
+}
+
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.link-secondary{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
 }
