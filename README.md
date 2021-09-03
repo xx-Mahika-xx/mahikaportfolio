@@ -1,2 +1,2 @@
 This is my first Program trying HTML, CSS and JS.
-I will be updating this code tomorrow.
+Made codes of different blocks used in my portfolio. I will be compliling these tomorrow.
