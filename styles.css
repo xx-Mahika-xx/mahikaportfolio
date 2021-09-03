@@ -46,4 +46,13 @@ body{
     background-color: var(--primary-color);
     color:black;
     border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+}
+
+.navigation .nav-allignment{
+    text-align: right;
 }
