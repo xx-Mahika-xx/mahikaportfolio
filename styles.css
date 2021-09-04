@@ -29,9 +29,9 @@ body{
 }
 
 .link-secondary{
-    background-color: var(--primary-color);
+    border-color: var(--primary-color);
     border-radius: 0.5rem;
-    color: white;
+    color: var(--primary-color);
 }
 
 .list-non-bullet{
