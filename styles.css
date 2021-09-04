@@ -20,18 +20,21 @@ body{
 .link{
     text-decoration: none;
     padding: 0.5rem 1rem;
+    color: #1E3A8A;
 }
 
 .link-primary{
     background-color: var(--primary-color);
     border-radius: 0.5rem;
-    color: white;
+    color:black;
 }
 
 .link-secondary{
-    border-color: var(--primary-color);
-    border-radius: 0.5rem;
-    color: var(--primary-color);
+    border-radius:0.5rem;
+    border-color: 1px solid var(--primary-color);
+    color: black;
+    
+
 }
 
 .list-non-bullet{
