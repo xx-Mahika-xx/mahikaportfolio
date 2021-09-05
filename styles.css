@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 :root{
-    --primary-color:rgb(213, 239, 248);
+    --primary-color:rgb(143, 219, 219);
     --dark-grey: #6b7280;
     --off-white: #F3F4F6;
     --light-bluee: #DBEAFE;
@@ -23,7 +23,8 @@ body{
 .link{
     text-decoration: none;
     padding: 0.5rem 1rem;
-    color: #1E3A8A;
+    color: #080a0f;
+    font-size: 130%;
 }
 
 .link-primary{
@@ -56,14 +57,14 @@ body{
 
 .navigation{
     background-color: var(--primary-color);
-    color:rgb(173, 169, 169);
+    color:rgb(231, 205, 205);
     border-top-right-radius: 2rem;
     border-bottom-left-radius: 2rem;
-    padding:1rem;
+    padding: 2rem;
 }
 
 .navigation .nav-brand{
-    font-weight: bold;
+    font-weight: bolder;
     color: black;
 }
 
