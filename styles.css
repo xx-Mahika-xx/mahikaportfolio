@@ -40,6 +40,11 @@ body{
 
 }
 
+.linkhover:hover{
+    background-color: rgb(243, 200, 145);
+    border-radius: 10px;
+}
+
 .list-non-bullet{
     list-style: none;
 }
@@ -109,4 +114,9 @@ nav{
     text-align: center;
     border-top-right-radius: 2rem ;
     text-align: center;
+}
+
+.navHover:hover{
+    text-decoration: underline 0.2rem;
+
 }
