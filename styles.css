@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 :root{
-    --primary-color:rgb(182, 245, 245);
+    --primary-color:rgb(179, 236, 253);
     --dark-grey: #6b7280;
     --off-white: #F3F4F6;
     --light-bluee: #DBEAFE;
     --proper-white: white;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
 }
 body{
     font-family: 'Merriweather';
@@ -24,13 +29,16 @@ body{
     text-decoration: none;
     padding: 0.5rem 1rem;
     color: #080a0f;
-    font-size: 130%;
+    font-size: 100%;
 }
 
 .link-primary{
     background-color: var(--primary-color);
     border-radius: 0.5rem;
+    border: 3px solid var(--proper-white);
     color:black;
+    width: 10rem;
+    display: block;
 }
 
 .link-secondary{
@@ -38,7 +46,8 @@ body{
     border: 3px solid var(--primary-color);
     color: black;
     background-color: var(--proper-white);
-
+    width: 10rem;
+    display: block;
 }
 
 .linkhover:hover{
@@ -61,6 +70,7 @@ body{
     border-top-right-radius: 2rem;
     border-bottom-left-radius: 2rem;
     padding: 2rem;
+    font-size: 120%;
 }
 
 .navigation .nav-brand{
@@ -101,8 +111,8 @@ nav{
 }
 
 .section h1{
-     text-align: center;
-     padding: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .ow{
@@ -114,7 +124,7 @@ nav{
     padding: 2.8rem 1rem;
     text-align: center;
     border-top-right-radius: 2rem ;
-    margin-top: 5rem;
+    
 }
 
 .navHover:hover{
