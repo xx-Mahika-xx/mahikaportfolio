@@ -63,7 +63,13 @@ body{
     display:inline;
     padding: 0rem 0.5rem;
 }
-
+@media screen and (max-width: 650px)
+{
+.flexing {
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+}}
 .navigation{
     background-color: var(--primary-color);
     color:rgb(231, 205, 205);
@@ -84,6 +90,8 @@ body{
 
 .navigation .link-active{
     font-weight: bold;
+    background-color: white;
+    border-radius: 2rem;
 }
 
 nav{
@@ -129,6 +137,8 @@ nav{
 
 .navHover:hover{
     text-decoration: underline 0.2rem;
+    background-color: white;
+    border-radius: 2rem;
 
 }
 
